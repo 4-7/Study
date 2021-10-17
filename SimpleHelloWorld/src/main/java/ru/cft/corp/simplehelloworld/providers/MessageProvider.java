@@ -1,4 +1,4 @@
-package ru.cft.corp.simplehelloworld.Providers;
+package ru.cft.corp.simplehelloworld.providers;
 
 public class MessageProvider implements IMessageProvider {
 	private String message;
