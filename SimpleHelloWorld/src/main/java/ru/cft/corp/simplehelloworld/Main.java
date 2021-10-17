@@ -1,6 +1,7 @@
 package ru.cft.corp.simplehelloworld;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import ru.cft.corp.simplehelloworld.renders.MessageRender;
 
 public class Main {
@@ -10,7 +11,7 @@ public class Main {
 		MessageRender rend = context.getBean("messageRender", MessageRender.class);
 		
 		rend.render();
-		
+
 		context.close();
 	}
 }
