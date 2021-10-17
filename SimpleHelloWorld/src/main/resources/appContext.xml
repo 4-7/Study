@@ -5,4 +5,7 @@
 
 	<bean id="messageProvider" class="ru.cft.corp.simplehelloworld.Providers.MessageProvider"/>
 
+	<bean id="messageRender" class="ru.cft.corp.simplehelloworld.renders.MessageRender">
+		<property name="messageProvider" ref="messageProvider"></property>
+	</bean>
 </beans>
