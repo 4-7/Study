@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="messageProvider" class="ru.cft.corp.simplehelloworld.providers.MessageProvider">
-		<property name="message" value="Hello!"></property>
+		<property name="message" value="Hello World!!!!"></property>
 	</bean>
 
 	<bean id="messageRender" class="ru.cft.corp.simplehelloworld.renders.MessageRender">
